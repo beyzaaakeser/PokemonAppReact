@@ -1,0 +1,22 @@
+.Pokedex{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Pokedex-cards{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;    
+
+}
+
+.Pokedex h4{
+    margin: 10px;
+}
+
+.Pokedex-winner,
+.Pokedex-loser{
+    margin-bottom: 0;
+}
